@@ -13,7 +13,7 @@ export const ContactList = ({ contacts, onDeleteContact, totalContscts }) => {
           onDeleteContact={() => onDeleteContact(id)}
         />
       ))}
-      <TotalContacts>Кількість контактів: {totalContscts}</TotalContacts>
+      <TotalContacts>Total contacts: {totalContscts}</TotalContacts>
     </Contacts>
   );
 };
